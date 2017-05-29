@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Arduino USB Chat</string>
+
+    <string name="activity_connexion_connect">Connect</string>
+    <string name="activity_connexion_status_plugged">You can now start chatting</string>
+    <string name="activity_connexion_status_unplugged">Plug Arduino with OTG</string>
+    <string name="activity_connexion_about_title">About</string>
+    <string name="activity_connexion_about_message">The app code is on Github !</string>
+    <string name="activity_connexion_about_link">https://github.com/omaflak/Arduino-USB</string>
+    <string name="activity_connexion_about_stay">Stay</string>
+    <string name="activity_connexion_about_go">Go !</string>
+
+    <string name="fragment_chat_editText_hint">Type a message…</string>
+
+    <string name="menu_connexion_about">About</string>
+</resources>

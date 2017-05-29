@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="activity_connexion_status_plugged">#64dd17</color>
+    <color name="activity_connexion_status_unplugged">#ef5350</color>
+
+    <color name="fragment_chat_android">#212121</color>
+    <color name="fragment_chat_arduino">#d32f2f</color>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="25dip"
+            android:paddingEnd="25dip"
+            android:id="@+id/linearLayout"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/android" />
+
+            <ImageView
+                android:id="@+id/activity_connexion_usb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tint="@color/activity_connexion_status_unplugged"
+                android:src="@drawable/ic_usb_black_48dp"/>
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/arduino"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/activity_connexion_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:text="@string/activity_connexion_status_unplugged"
+            android:layout_above="@+id/linearLayout"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/activity_connexion_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_connexion_connect"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+
+    <FrameLayout android:id="@+id/activity_connexion_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</merge>
