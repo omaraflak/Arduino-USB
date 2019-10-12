@@ -1,4 +1,4 @@
-package me.aflak.arduinousbchat.data;
+package me.aflak.arduinousb.data;
 
 import android.content.Context;
 

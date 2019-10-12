@@ -4,6 +4,7 @@
     <string name="activity_connexion_connect">Connect</string>
     <string name="activity_connexion_status_plugged">You can now start chatting</string>
     <string name="activity_connexion_status_unplugged">Plug Arduino with OTG</string>
+    <string name="activity_connexion_status_denied">Permission denied by user</string>
     <string name="activity_connexion_about_title">About</string>
     <string name="activity_connexion_about_message">The app code is on Github !</string>
     <string name="activity_connexion_about_link">https://github.com/omaflak/Arduino-USB</string>

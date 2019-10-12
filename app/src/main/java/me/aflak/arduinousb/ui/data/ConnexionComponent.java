@@ -1,11 +1,11 @@
-package me.aflak.arduinousbchat.ui.data;
+package me.aflak.arduinousb.ui.data;
 
 import javax.inject.Singleton;
 
 import dagger.Component;
-import me.aflak.arduinousbchat.data.AppModule;
-import me.aflak.arduinousbchat.ui.view.ChatFragment;
-import me.aflak.arduinousbchat.ui.view.ConnexionActivity;
+import me.aflak.arduinousb.data.AppModule;
+import me.aflak.arduinousb.ui.view.ChatFragment;
+import me.aflak.arduinousb.ui.view.ConnexionActivity;
 
 /**
  * Created by Omar on 28/05/2017.

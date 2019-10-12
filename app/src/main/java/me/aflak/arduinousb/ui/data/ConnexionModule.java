@@ -1,20 +1,19 @@
-package me.aflak.arduinousbchat.ui.data;
+package me.aflak.arduinousb.ui.data;
 
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.FragmentManager;
 import android.content.Context;
-import android.view.MenuInflater;
 
 import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
 import me.aflak.arduino.Arduino;
-import me.aflak.arduinousbchat.ui.presenter.ConnexionPresenter;
-import me.aflak.arduinousbchat.ui.presenter.ConnexionPresenterImpl;
-import me.aflak.arduinousbchat.ui.view.ChatFragment;
-import me.aflak.arduinousbchat.ui.view.ConnexionView;
+import me.aflak.arduinousb.ui.presenter.ConnexionPresenter;
+import me.aflak.arduinousb.ui.presenter.ConnexionPresenterImpl;
+import me.aflak.arduinousb.ui.view.ChatFragment;
+import me.aflak.arduinousb.ui.view.ConnexionView;
 
 /**
  * Created by Omar on 28/05/2017.

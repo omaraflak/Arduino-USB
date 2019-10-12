@@ -1,4 +1,4 @@
-package me.aflak.arduinousbchat;
+package me.aflak.arduinousb;
 
 import org.junit.Test;
 

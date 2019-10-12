@@ -1,4 +1,4 @@
-package me.aflak.arduinousbchat.ui.presenter;
+package me.aflak.arduinousb.ui.presenter;
 
 /**
  * Created by Omar on 28/05/2017.

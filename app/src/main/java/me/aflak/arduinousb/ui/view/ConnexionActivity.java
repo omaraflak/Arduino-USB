@@ -1,12 +1,10 @@
-package me.aflak.arduinousbchat.ui.view;
+package me.aflak.arduinousb.ui.view;
 
 import android.app.AlertDialog;
 import android.app.FragmentManager;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -14,16 +12,19 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+
 import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import me.aflak.arduinousbchat.R;
-import me.aflak.arduinousbchat.data.AppModule;
-import me.aflak.arduinousbchat.ui.data.ConnexionModule;
-import me.aflak.arduinousbchat.ui.data.DaggerConnexionComponent;
-import me.aflak.arduinousbchat.ui.presenter.ConnexionPresenter;
+import me.aflak.arduinousb.R;
+import me.aflak.arduinousb.data.AppModule;
+import me.aflak.arduinousb.ui.data.ConnexionModule;
+import me.aflak.arduinousb.ui.data.DaggerConnexionComponent;
+import me.aflak.arduinousb.ui.presenter.ConnexionPresenter;
 
 public class ConnexionActivity extends AppCompatActivity implements ConnexionView, ChatFragment.OnChatListener {
     @BindView(R.id.activity_connexion_connect) Button connectButton;

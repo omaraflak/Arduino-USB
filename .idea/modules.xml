@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ArduinoUSBChat.iml" filepath="$PROJECT_DIR$/ArduinoUSBChat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Arduino-USB.iml" filepath="$PROJECT_DIR$/.idea/Arduino-USB.iml" group="Arduino-USB" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Arduino-USB/app" />
     </modules>
   </component>
 </project>

@@ -1,12 +1,13 @@
-package me.aflak.arduinousbchat.ui.presenter;
+package me.aflak.arduinousb.ui.presenter;
 
 import android.hardware.usb.UsbDevice;
 import android.view.View;
+import android.widget.Toast;
 
 import me.aflak.arduino.Arduino;
 import me.aflak.arduino.ArduinoListener;
-import me.aflak.arduinousbchat.R;
-import me.aflak.arduinousbchat.ui.view.ConnexionView;
+import me.aflak.arduinousb.R;
+import me.aflak.arduinousb.ui.view.ConnexionView;
 
 /**
  * Created by Omar on 28/05/2017.
@@ -66,5 +67,10 @@ public class ConnexionPresenterImpl implements ConnexionPresenter, ArduinoListen
     public void onArduinoOpened() {
         view.showChatFragment();
         fragmentDisplayed = true;
+    }
+
+    @Override
+    public void onUsbPermissionDenied() {
+        view.setStatusText(R.string.activity_connexion_status_denied);
     }
 }
